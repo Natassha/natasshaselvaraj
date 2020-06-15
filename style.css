@@ -67,6 +67,34 @@
     object-fit: cover;
 }
 
+.d-block {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.8 !important;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    transition-duration: 3s;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.img-fluid {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.8 !important;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    transition-duration: 3s;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
 .carousel-caption h1 {
     color: white;
     font-style: bold;
