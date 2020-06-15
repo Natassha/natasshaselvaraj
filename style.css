@@ -249,14 +249,6 @@ p {
     min-width: 100%;
 }
 
-@media (min-width: 576px) .container,
-.container-sm {
-    max-width: 540px;
-}
-
-@media (min-width: 576px) .container {
-    max-width: 540px;
-}
 
 .container {
     width: 100%;
@@ -349,14 +341,6 @@ p {
     padding: 5px 5px 5px 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    .portfolio-row {
-        width: 80%;
-        height: 300px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
 
 img {
     vertical-align: middle;
