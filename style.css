@@ -318,3 +318,85 @@ img {
 .abc {
     margin-right: auto!important;
 }
+
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### Mobile Phones Landscape #### */
+
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### Mobile Phones Portrait or Landscape #### */
+
+@media screen and (max-device-width: 640px) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### iPhone 5 Portrait or Landscape #### */
+
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/* #### Tablets Portrait or Landscape #### */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .portfolio-img {
+        width: 80%;
+        height: 350px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
+}
