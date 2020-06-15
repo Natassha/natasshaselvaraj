@@ -447,3 +447,9 @@ img {
 .abc {
     margin-right: auto!important;
 }
+
+@media only screen and (max-width: 300px) {
+            #slider {
+                height: 50vh !important;
+            }
+        } 
