@@ -454,9 +454,9 @@ img {
             }
         } 
 
-        .carousel img,
-        .img-fluid,
-        .d-block {
+.carousel img,
+.img-fluid,
+.d-block {
             width: 100% !important;
             min-width: 100% !important;
             height: 100% !important;
