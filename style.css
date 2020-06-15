@@ -64,6 +64,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
 }
 
 .carousel-caption h1 {
