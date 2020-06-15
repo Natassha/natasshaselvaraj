@@ -222,6 +222,16 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img1.jpg);
 }
 
+.col-md-5 {
+    padding: 20px 30px 20px 30px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 #certs h1 {
     text-align: center;
     color: black !important;
