@@ -4,47 +4,71 @@
 }
 
 #nav-bar {
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
+.home-content {
+    margin: 40px 0 70px 0;
+}
+
+#navbar-expand-lg {
+    position: relative;
+}
+
 .navbar-nav li {
     padding: 0 10px;
+    position: relative;
+}
+
+.navbar-light {
+    position: relative;
+}
+
+.bg-light {
+    position: relative;
 }
 
 .nav-link {
     color: #555!important;
     font-weight: 600;
     font-size: 16px;
+    position: relative;
 }
 
 .navbar-nav li a {
     float: right;
     text-align: right;
+    position: relative;
 }
 
 #nav-bar ul li a:hover {
     color: #007bff!important;
+    position: relative;
 }
 
 .navbar {
     background: #fff;
+    position: relative;
 }
 
 .navbar-toggler {
     border: none!important;
+    position: relative;
 }
 
 .nav-link {
     color: #555!important;
     font-weight: 600;
     font-size: 16px;
+    position: relative;
 }
 
 #slider {
     width: 100%;
+    position: relative;
 }
 
 .carousel-caption {
@@ -58,41 +82,50 @@
     opacity: 0.8 !important;
     background-size: cover;
     height: 100%;
+    background-size: 100% 100%;
     position: relative;
     transition-duration: 3s;
     width: 100%;
-    height: 100%;
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
 }
 
 .d-block {
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0.8 !important;
-    background-size: cover;
-    height: 100%;
-    position: relative;
-    transition-duration: 3s;
     width: 100%;
     height: 100%;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    object-fit: cover;
+    -o-background-size: cover;
 }
 
 .img-fluid {
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0.8 !important;
-    background-size: cover;
-    height: 100%;
-    position: relative;
-    transition-duration: 3s;
     width: 100%;
     height: 100%;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    object-fit: cover;
+    -o-background-size: cover;
 }
 
 .carousel-caption h1 {
@@ -126,6 +159,16 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 8em
+}
+
+.col-md-5 {
+    padding: 40px 50px 40px 50px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .about-content {
@@ -206,11 +249,113 @@ p {
     min-width: 100%;
 }
 
+@media (min-width: 576px) .container,
+.container-sm {
+    max-width: 540px;
+}
+
+@media (min-width: 576px) .container {
+    max-width: 540px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .portfolio-img {
     width: 80%;
-    height: 550px;
+    height: 500px;
     border: 2px solid rgba(44, 130, 201, 1);
     padding: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-row {
+        width: 80%;
+        height: 300px;
+        border: 2px solid rgba(44, 130, 201, 1);
+        padding: 5px 5px 5px 5px;
+    }
 }
 
 img {
@@ -220,16 +365,6 @@ img {
 
 .d-block {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img1.jpg);
-}
-
-.col-md-5 {
-    padding: 40px 50px 40px 50px;
-}
-
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
 }
 
 #certs h1 {
@@ -327,86 +462,4 @@ img {
 
 .abc {
     margin-right: auto!important;
-}
-
-
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### Mobile Phones Landscape #### */
-
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### Mobile Phones Portrait or Landscape #### */
-
-@media screen and (max-device-width: 640px) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### iPhone 4+ Portrait or Landscape #### */
-
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### iPhone 5 Portrait or Landscape #### */
-
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
-
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
-}
-
-
-/* #### Tablets Portrait or Landscape #### */
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .portfolio-img {
-        width: 80%;
-        height: 350px;
-        border: 2px solid rgba(44, 130, 201, 1);
-        padding: 5px 5px 5px 5px;
-    }
 }
