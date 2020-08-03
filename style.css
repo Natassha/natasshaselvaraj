@@ -143,6 +143,16 @@
     margin-bottom: -3px;
 }
 
+
+#skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+  background: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -201,6 +211,21 @@ body {
     text-align: center;
     color: #efefef !important;
     padding-bottom: 10px;
+}
+
+#skills h1 {
+  text-align: center;
+  color: black !important;
+  padding-bottom: 10px;
+}
+
+#skills h1::after {
+  content: '';
+  background: blue;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
 }
 
 #tutorials h1::after {
@@ -2258,5 +2283,63 @@ img {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.row-legend {
+  margin: 20px 20px 0 20px;
+}
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
 
+@media screen and (max-width: 900px)
+.about-row {
+    margin: 30px 20px 30px 20px;
+}
+.about-row {
+    margin: 30px 70px 30px 70px;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
 
