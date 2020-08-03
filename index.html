@@ -11,10 +11,37 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="skills-diagram.coderbits.js"></script>
 
         <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+        <link rel="stylesheet"
+            href="skills-diagram.css" />
+
+
+          <script type="text/javascript">
+            window.onload = function () {
+              var chart = new CanvasJS.Chart("chartContainer",
+              {
+                data: [
+                {
+                 type: "doughnut",
+                 dataPoints: [
+                 {  y: 4, indexLabel: "Python" },
+                 {  y: 3, indexLabel: "R" },
+                 {  y: 3.5, indexLabel: "SQL" },
+                 {  y: 3.5, indexLabel: "Tableau" },
+                 {  y: 4, indexLabel: "Data Analysis" }
+                 ]
+               }
+               ]
+             });
+          
+              chart.render();
+            }
+            </script>
+            <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
       </head>
 
 
@@ -167,7 +194,7 @@
 
                         </div>
 
-                    </div>
+                    </div> 
                 </div>
                 <div class="col-12 col-md-5">
                     <div class="text-center">
@@ -486,6 +513,38 @@
                                     </div>
                                     </div>
                                     </div>
+                        </section>
+
+                        <section id="skills" style="background-color: black;">
+                            <div class='container p-0'>
+                                <br>
+                                <h1 >Skills</h1>
+                                <h5 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp The bubble chart illustrates a couple of skills I bring to the table!</h5>
+                                <div class="row portfolio-row justify-content-center">
+                                    <div class="col-12 col-md-5">
+                                        <dl class="skills-diagram">
+                                            <dt class="skill-5">Tableau</dt>
+                                            <dd>5</dd>
+                                            <dt class="skill-10">Python</dt>
+                                            <dd>10</dd>
+                                            <dt class="skill-3">SQL</dt>
+                                            <dd>3</dd>
+                                            <dt class="skill-8">ML</dt>
+                                            <dd>8</dd>
+                                            <dt class="skill-4">UI</dt>
+                                            <dd>4</dd>
+                                            <dt class="skill-6">Data Viz</dt>
+                                            <dd>6</dd>
+                                            <dt class="skill-7">Statistics</dt>
+                                            <dd>7</dd>
+                                            <dt class="skill-9">Data Analysis</dt>
+                                            <dd>9</dd>
+                                            <dt class="skill-2">R</dt>
+                                            <dd>2</dd>
+                                          </dl>
+                                </div>
+                                
+                            </div>
                         </section>
 
 
