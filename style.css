@@ -652,6 +652,15 @@ img {
     box-sizing: border-box;
 }
 
+#imgg{
+    border-radius: 50%;
+    height: 40vh;
+    width:30%;
+    margin-left: 35%;
+    margin-right: auto;
+
+}
+
 @media (min-width: 576px)
 .col-sm-4 {
     -ms-flex: 0 0 33.333333%;
