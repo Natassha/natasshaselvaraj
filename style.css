@@ -18,9 +18,22 @@
     position: relative;
 }
 
+#imgg{
+    height: 40vh;
+    width:30%;
+    margin-left: 35%;
+    margin-right: auto;
+
+}
+
 .navbar-nav li {
     padding: 0 10px;
     position: relative;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
 }
 
 .navbar-light {
@@ -192,7 +205,7 @@ body {
 }
 
 #publications {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img6.jpg);
+    background-image: linear-gradient(rgba(0,0.8,0.8, 0.8), rgba(0, 0.8, 0.8, 0.8)), url(img6.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
@@ -650,15 +663,6 @@ img {
 }
 *, ::after, ::before {
     box-sizing: border-box;
-}
-
-#imgg{
-    border-radius: 50%;
-    height: 40vh;
-    width:30%;
-    margin-left: 35%;
-    margin-right: auto;
-
 }
 
 @media (min-width: 576px)
@@ -2351,3 +2355,94 @@ user agent stylesheet
 div {
     display: block;
 }
+
+@media screen and (max-width: 900px)
+.about-row {
+    margin: 30px 20px 30px 20px;
+}
+.about-row {
+    margin: 30px 70px 30px 70px;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: "bold";
+    font-size: "24";
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.col-md-5 {
+    padding: 40px 50px 40px 50px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #gallery h1 {
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+}
+
+#gallery h1::after {
+  content: '';
+  background: blue;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
