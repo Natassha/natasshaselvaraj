@@ -1,0 +1,847 @@
+<html>
+
+<head>
+    <title> My Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="skills-diagram.coderbits.js"></script>
+
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    8
+
+      </head>
+
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#publications">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#certs">Certificates</a>
+                    </li>
+                </ul>
+                <div class="abc">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Natassha">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/natassha-selvaraj-33430717a/">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://medium.com/@natassha6789">Medium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://www.hackerrank.com/natassha6789">HackerRank</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+    <!--Slider-->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img_apr_11.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h1>Hi, I am <span class="decorate"> Natassha. </span> </h1>
+                            <!-- <br> Welcome to my data science portfolio! </h1> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img_apr_12.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1> Welcome to my data science portfolio! </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img_apr_13.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1> You can find my work, thoughts, and ideas here. </h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+<style>
+.img-fluid {
+  opacity: 0.6;
+}
+
+.carousel-caption {
+  font-weight: bold !important;
+  font-family: cursive;
+  font-size: 60px !important;
+}
+
+h1 {
+  font-size: 60px !important;
+  font-weight: bold !important;
+}
+</style>
+
+        <!-- Gallery -->
+<section id="gallery">
+    <br><br>
+    <h1>Some Things I've Worked On</h1>
+
+    <div class="row">
+        <div class="column">
+         <div class='zone'><img class="zoom" src="p21.jpg" > </div>
+         <div class='zone'><img  class="zoom" src="img_apr_9.jpg"></div>
+      </div>
+      <div class="column">
+        <div class='zone'><img  class="zoom" src="p13.jpg"></div>
+        <div class='zone'><img  class="zoom" src="p14.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'><img  class="zoom" src="img_apr_8.jpg"></div>
+        <div class='zone'><img  class="zoom" src="p17.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'> <img  class="zoom" src="p18.jpg"></div>
+        <div class='zone'><img  class="zoom" src="p19.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'> <img  class="zoom" src="p12.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'> <img  class="zoom" src="p18.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'> <img  class="zoom" src="img225.jpg"></div>
+    </div>
+    <div class="column">
+        <div class='zone'> <img  class="zoom" src="img_apr_10.jpg"></div>
+    </div>
+
+    </div>
+    </section>
+
+    <!--About-->
+    <section id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+
+                    <div class="about-content">
+                        <h1>Natassha in a Nutshell</h1>
+                        <br><br>
+                        <img id="imgg" src="wordcloudfinal.jpg">
+                        <p style="font-size:21px;">
+                            <br> I am a data scientist with a passion for storytelling. I believe that <strong> words and data are the two most powerful tools to change the world. </strong>
+                            <br><br>
+                            Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include <strong>data analysis, visualization, and machine learning.</strong>
+                            I have developed a strong acumen for problem solving, and I enjoy an occasional challenge.
+                            I often work on end-to-end data science projects that usually begin from collecting data from third party sources and end with delivering business insight in the form of customer segments.
+
+                            <br><br>
+                            At night, I take some time off to work on things I'm passionate about. I write articles and publish them on the Internet.
+                            Sometimes, I create personal projects and write tutorials on them. I also enjoy going on sites like HackerRank and
+                            trying out their programming challenges.
+                            <br><br>
+                            You can take a look at some of my projects and articles in the section below. I will link my work to their GitHub repositories, so feel free to download my code and play around with it.
+                            Most of my education has come from online platforms.
+                            I have downloaded e-books, audited courses on edX and Coursera, and spent countless hours on sites like HackerRank and FreeCodeCamp. I am grateful to online educators who have given me the opportunity to learn these things, and for democratizing education.
+                            <br><br>
+                            To give back to the community, I create tutorials detailing things I have learnt.
+                            I create starter code for data science and visualization projects and publish it for everyone to read.
+                            If you are a data science aspirant, please feel free to check out these tutorials on my blog site.
+
+
+
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="publications">
+        <div class="container p-0">
+            <h1>Projects</h1>
+            <div class="row portfolio-row justify-content-center">
+
+
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/real-face-or-ai-generated-fake-d95b30c1f86f---------------------------">
+                            <h5> Real face or AI-generated fake? </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>
+                            If presented with two images, would you be able to tell the difference between the real face and the AI fake?
+                            <br><br>
+                            In this project, I created an app that tests you on your ability to distinguish fake faces from real ones.
+                            All you need to do is take my quiz and select whether you think the person in the picture is real.
+
+
+
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://towardsdatascience.com/real-face-or-ai-generated-fake-d95b30c1f86f---------------------------">
+                                <img class="portfolio-img" src="img_apr_1.jpeg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://towardsdatascience.com/real-face-or-ai-generated-fake-d95b30c1f86f---------------------------" class="button">Blog Post</a>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://does-this-person-exist.herokuapp.com/static/index2.html" class="button">Quiz App</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/a-complete-deep-learning-portfolio-project-9c5dc7f3f2ef">
+                            <h5> Celebrity Facial Recognition App </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>
+                            Have you every wondered who your celebrity lookalike was? You can find out with my facial recognition app!
+                           <br><br>
+                            All you need to do is select a picture of yourself and upload it, then click on predict. Just wait for a few seconds, and you will get your result.
+                            <br>
+
+
+
+                        </p>
+                        <br>
+                        <div class="row">
+                            <a target="_blank" href="https://towardsdatascience.com/a-complete-deep-learning-portfolio-project-9c5dc7f3f2ef">
+                                <img class="portfolio-img" src="img_apr_3.jpg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://towardsdatascience.com/a-complete-deep-learning-portfolio-project-9c5dc7f3f2ef" class="button">Blog Post</a>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/Natassha/facial-recognition-app" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/the-bechdel-test-analyzing-gender-disparity-in-hollywood-263cd4bcd9d?source=your_stories_page---------------------------">
+                            <h5>The Bechdel Test: Analyzing Gender Disparity in Hollywood </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I collected data from multiple different sources to analyze gender disparity in Hollywood. The project was based on the Bechdel Test, a measure of female representation in Hollywood.
+                            <br><br>Skills demonstrated: Python, EDA, data collection, data wrangling, data visualization
+                            <br><br> Publication: Towards Data Science
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://towardsdatascience.com/the-bechdel-test-analyzing-gender-disparity-in-hollywood-263cd4bcd9d?source=your_stories_page---------------------------">
+                                <img class="portfolio-img" src="img2k8.jpg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://towardsdatascience.com/the-bechdel-test-analyzing-gender-disparity-in-hollywood-263cd4bcd9d?source=your_stories_page---------------------------" class="button">Blog Post</a>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/Natassha/Bechdel-Test" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://medium.com/swlh/the-framingham-heart-study-decision-trees-83a7fb62718e">
+                            <h5>The Framingham Heart Study: Decision Trees </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I analyzed data that was used in the Framingham Heart Study, and visualized the risk factors of heart disease. Then, I built a machine learning pipeline with decision trees to predict the ten year risk
+                            of Coronary Heart Disease.
+                            <br><br>Skills demonstrated: Python, ML algorithms, EDA, data visualization
+                            <br><br> Publication: The Startup
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://medium.com/swlh/the-framingham-heart-study-decision-trees-83a7fb62718e">
+                                <img class="portfolio-img" src="img2k9.jpg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://medium.com/swlh/the-framingham-heart-study-decision-trees-83a7fb62718e" class="button">Blog Post</a>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/Natassha/FHS/blob/master/Framingham%20Heart%20Study.ipynb" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://medium.com/better-programming/the-gender-gap-in-data-science-what-the-data-says-2a74892655f1">
+                            <br>
+                            <h5>The Gender Gap in Data Science: Data Visualization </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I used a dataset from Kaggle's data science in survey to visualize female representation in the tech sector.
+                            <br><br>Skills demonstrated: Python, EDA, data visualization
+                            <br><br> Publication: Better Programming
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://medium.com/better-programming/the-gender-gap-in-data-science-what-the-data-says-2a74892655f1">
+                                <img class="portfolio-img" src="img2k10.jpg">
+
+                            </a>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://medium.com/better-programming/the-gender-gap-in-data-science-what-the-data-says-2a74892655f1" class="button">Blog Post</a>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://medium.com/better-programming/the-gender-gap-in-data-science-what-the-data-says-2a74892655f1" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="col-12 col-md-5">
+                            <div class="text-center">
+                                <a target="_blank" class="title-linkk" href="https://medium.com/datadriveninvestor/i-built-a-web-scraper-to-find-the-best-data-science-online-courses-1327b60f7792">
+                                    <h5>Web Scraping to Find the Best DS Online Courses </h5>
+                                </a>
+                                <p class="project-des">
+                                    <br>In this project, I built a web scraper in Python to collect data from an online course review site.
+                                    I then conducted some EDA on this data to find some of the best data science courses based on user reviews.
+
+                                    <br><br>Skills demonstrated: Web Scraping, Python, EDA, data visualization
+                                    <br><br> Publication: Data Driven Investor
+                                </p>
+                                <div class="row">
+                                    <a target="_blank" href="https://medium.com/datadriveninvestor/i-built-a-web-scraper-to-find-the-best-data-science-online-courses-1327b60f7792">
+                                        <img class="portfolio-img" src="img2k12.jpg">
+
+                                    </a>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="https://medium.com/datadriveninvestor/i-built-a-web-scraper-to-find-the-best-data-science-online-courses-1327b60f7792" class="button">Blog Post</a>
+
+                                    </div>
+
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="https://github.com/Natassha/web-scraping/blob/master/DS%20webscraper%20and%20viz.ipynb" class="button">Code</a>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="text-center">
+                                <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/a-full-stack-machine-learning-project-7ab80e46e1c4?source=your_stories_page---------------------------">
+                                    <h5> Deep learning - Harry Potter Personality Prediction </h5>
+                                </a>
+                                <p class="project-des">
+                                    <br>In this project, I created a Fastai model for text classification using an MBTI personality prediction dataset.
+                                    I used these predictions to create a Harry Potter character classification model. Finally, I created a front-end interface for the model using Dash.
+                                    (Note: The Dash app might take a while to load because it was deployed directly from a remote server.)
+                                    <br><br>Skills demonstrated: Python, Dash, deep learning
+                                    <br><br> Publication: Towards Data Science
+                                </p>
+                                <div class="row">
+                                    <a target="_blank" href="https://towardsdatascience.com/a-full-stack-machine-learning-project-7ab80e46e1c4?source=your_stories_page---------------------------">
+                                        <img class="portfolio-img" src="img2k11.jpg">
+
+                                    </a>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="https://towardsdatascience.com/a-full-stack-machine-learning-project-7ab80e46e1c4?source=your_stories_page---------------------------" class="button">Blog Post</a>
+
+                                    </div>
+
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="http://d2e42136c142.ngrok.io/" class="button">Dash App</a>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-5">
+                            <div class="text-center">
+                                <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/a-complete-data-science-portfolio-project-ebbced35ea84">
+                                    <h5>End-to-end Movie Project</h5>
+                                </a>
+                                <p class="project-des">
+                                    <br>In this project, I built a movie recommender system that takes in user input and comes up with movie suggestions for you to watch.
+                                    I also created a movie dashboard using data from multiple sources, and you can find movie information such as reviews and release year.
+                                    Finally, I created a web-page with the project description, dashboard, and recommender system.
+
+                                    <br><br>Skills demonstrated: Front-end design, Python, data collection, machine learning, data analysis, data visualization
+                                    <br><br> Publication: Towards Data Science
+                                </p>
+                                <div class="row">
+                                    <a target="_blank" href="https://towardsdatascience.com/a-complete-data-science-portfolio-project-ebbced35ea84">
+                                        <img class="portfolio-img" src="img2k13.jpg">
+
+                                    </a>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="https://towardsdatascience.com/a-complete-data-science-portfolio-project-ebbced35ea84" class="button">Blog Post</a>
+
+                                    </div>
+
+                                    <div class="col-6 text-center">
+                                        <a target="_blank" href="https://natassha.github.io/movie_project/" class="button">Front-End Site</a>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+    </section>
+
+
+
+
+    <section id="certs">
+        <div class="container">
+            <br>
+            <h1>Courses & Certificates</h1>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://www.edx.org/course/linear-algebra-foundations-to-frontiers">
+                        <div class="img box">
+                            <img src="img_apr_18.jpg" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://www.edx.org/course/linear-algebra-foundations-to-frontiers">
+                        <h5> &nbsp Linear Algebra - University of Texas at Austin, Coursera </h5>
+                    </a>
+
+                </div>
+
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/AP346PW8S2GS">
+                        <div class="img box">
+                            <img src="img_apr_14.jpg" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://www.coursera.org/account/accomplishments/verify/AP346PW8S2GS">
+                        <h5> &nbsp Introduction to Calculus - University of Sydney, Coursera </h5>
+                    </a>
+
+                </div>
+
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/V3VALHLGXBPG">
+                        <div class="img box">
+                            <img src="img_apr_15.jpg" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://www.coursera.org/account/accomplishments/verify/V3VALHLGXBPG">
+                        <h5> &nbsp Probability and Statistics - University of London, Coursera </h5>
+                    </a>
+
+                </div>
+
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://courses.edx.org/certificates/9683824afb8c4acf8c4a8bbbe2dbaf20">
+                        <div class="img box">
+                            <img src="img_apr_16.jpg" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://courses.edx.org/certificates/9683824afb8c4acf8c4a8bbbe2dbaf20">
+                        <h5> &nbsp Statistical Learning - Columbia University, edX </h5>
+                    </a>
+
+                </div>
+
+                </div>
+
+                </section>
+
+                <section id="tutorials">
+                    <div class="container p-0">
+                        <h1>Articles</h1>
+                        <div class="row portfolio-row justify-content-center">
+                            <div class="col-12 col-md-5">
+                                <div class="text-center">
+                                    <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/why-arent-there-more-women-in-data-science-34ef3e31c0d7">
+                                        <h5>Why aren’t there more women in data science?</h5>
+                                    </a>
+                                    <p class="project-des">
+                                        <br>In this article, I write about the lack of female representation in technology. In my opinion, girls aren’t
+                                        naturally less inclined to pursue careers in STEM. Rather, they have been conditioned from a young age to stay away from
+                                        the field.
+                                        <br><br> I provide insight on the measures that we as a community can take
+                                        to ensure that more women develop an interest in tech-related fields.
+                                        <br><br> Publication: Towards Data Science
+                                    </p>
+                                    <div class="row">
+                                        <a target="_blank" href="https://towardsdatascience.com/why-arent-there-more-women-in-data-science-34ef3e31c0d7">
+                                            <img class="portfolio-img" src="img_apr_4.jpeg">
+
+                                        </a>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <a target="_blank" href="https://towardsdatascience.com/why-arent-there-more-women-in-data-science-34ef3e31c0d7" class="button btn portfolio-btn rounded-0"  style='background-color:#2FDEDB !important; color:#ffff; '>
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Article</font></font></a>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <div class="text-center">
+                                    <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/how-to-change-the-world-with-data-science-33c3b55bead">
+                                        <h5>How to change the world with data science?</h5>
+                                    </a>
+                                    <p class="project-des">
+
+
+                                      <br>  <br> Most applications of data science today revolve around maximizing profit for large companies.
+                                    However, data science can be used for so much more than just increasing revenue.
+                                    <br><br>
+                                        In this article, I explain the different ways data can be used for social good.
+
+
+                                        <br><br><br> Publication: Towards Data Science
+                                    </p>
+                                    <div class="row">
+                                        <a target="_blank" href="https://towardsdatascience.com/how-to-change-the-world-with-data-science-33c3b55bead">
+                                            <img class="portfolio-img" src="img_apr_6.jpeg">
+
+                                        </a>
+
+                                    </div>
+
+
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a target="_blank" href="https://towardsdatascience.com/how-to-change-the-world-with-data-science-33c3b55bead" class="button btn portfolio-btn rounded-0"  style='background-color:#2FDEDB !important; color:#ffff; '>
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">Article</font></font></a>
+
+                                            </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md-5">
+                                <div class="text-center">
+                                    <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/the-misuse-of-data-and-statistics-3282a594d508">
+                                        <br>
+                                        <h5>How to lie with data?</h5>
+                                    </a>
+                                    <p class="project-des">
+                                        <br>
+                                        Data can be used to lie. Statistics can be used to exaggerate, blow incidents out of proportion, and push political agendas.
+                                        <br><br>
+                                        In the world we live in today, the consequences of misusing statistics can be disastrous. Misinformation can spread like
+                                        wildfire on the Internet, with claims that they are backed up by scientific proof.
+                                        <br><br>
+                                        In this article, I explain the different ways statistics can be misused. I provide case
+                                        studies on how data has been used to mislead people in the past.
+                                        <br>The aim of this article is to inform readers about the dangers
+                                        of believing a statistic without doing proper research.
+
+                                    </p>
+                                    <div class="row">
+                                        <a target="_blank" href="https://towardsdatascience.com/the-misuse-of-data-and-statistics-3282a594d508">
+                                            <img class="portfolio-img" src="img_apr_7.jpeg">
+
+                                        </a>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <a target="_blank" href="https://towardsdatascience.com/the-misuse-of-data-and-statistics-3282a594d508" class="button btn portfolio-btn rounded-0"  style='background-color:#2FDEDB !important; color:#ffff; '>
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Article</font></font></a>
+
+                                        </div>
+
+
+                                    </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-5">
+                                        <div class="text-center">
+                                            <a target="_blank" class="title-linkk" href="https://towardsdatascience.com/finding-it-difficult-to-learn-programming-heres-why-639024be0a13">
+                                                <h5>Finding it difficult to learn programming? Here’s why.</h5>
+                                            </a>
+                                            <p class="project-des">
+                                           <br>
+                                            In the first coding class I took in my life, my lecturer told me that “some people just weren’t cut out for programming.”
+                                            I believed her and stopped trying to learn how to code.
+                                            <br><br>
+                                            I thought that there were two types of people in the world – those who were cut out for programming (the geniuses), and those who weren’t.
+                                            <br><br>
+                                            It was only after spending around 8 hours a day programming for a few months that I realized my lecturer was wrong. I also realized that there were a lot of people just like me, who gave up on learning to code simply because they thought they weren’t cut out for it.
+                                            I wrote this article to clear any misconceptions people might have about learning how to code. The best programmers I know aren’t geniuses or straight A students. They possess a set of traits that can be built along the way, which I highlight in this article.
+
+
+
+                                            </p>
+                                            <div class="row">
+                                                <a target="_blank" href="https://towardsdatascience.com/finding-it-difficult-to-learn-programming-heres-why-639024be0a13">
+                                                    <img class="portfolio-img" src="img_apr_5.jpeg">
+
+                                                </a>
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-12 text-center">
+                                                    <a target="_blank" href="https://towardsdatascience.com/finding-it-difficult-to-learn-programming-heres-why-639024be0a13" class="button btn portfolio-btn rounded-0"  style='background-color:#2FDEDB !important; color:#ffff; '>
+                                                        <font style="vertical-align: inherit;">
+                                                            <font style="vertical-align: inherit;">Article</font></font></a>
+
+                                                </div>
+
+
+                                            </div>
+
+
+</div>
+</section>
+
+<section id='footer'>
+                                    <footer class="py-5 bg-light" id="footerr">
+                                        <div class="container text-center">
+
+                                          <p class="text-secondary col-md-9 mx-auto">Thanks for reading, and feel free to reach out to me.</p>
+                                          <hr class="my-5">
+                                          <div class="mb-3">
+                                               <a href="/#" class="mx-1">
+                                                  <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                                     <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                                                        5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                                                        -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                                                        0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                                                        -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                                                        0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                                                        -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                                                        0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                                                        -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                                                        -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                                                        1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                                                        -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                                                        6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                                                        0.771,-0.67 1.054,-1.093Z"></path>
+                                                  </svg>
+                                               </a>
+                                               <a href="/#" class="w-6 mx-1">
+                                                  <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                                     <path id="Facebook" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                                                        5.373,-12 12,-12c6.627,0 12,5.373
+                                                        12,12Zm-11.278,0l1.294,0l0.172,-1.617l-1.466,0l0.002,-0.808c0,-0.422
+                                                        0.04,-0.648 0.646,-0.648l0.809,0l0,-1.616l-1.295,0c-1.555,0 -2.103,0.784
+                                                        -2.103,2.102l0,0.97l-0.969,0l0,1.617l0.969,0l0,4.689l1.941,0l0,-4.689Z"></path>
+                                                  </svg>
+                                               </a>
+                                               <a href="/#" class="w-6 mx-1">
+                                                  <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                                     <g id="Layer_1">
+                                                        <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                                                        <path id="Shape" d="M19.05,8.362c0,-0.062 0,-0.125 -0.063,-0.187l0,-0.063c-0.187,-0.562
+                                                           -0.687,-0.937 -1.312,-0.937l0.125,0c0,0 -2.438,-0.375 -5.75,-0.375c-3.25,0
+                                                           -5.75,0.375 -5.75,0.375l0.125,0c-0.625,0 -1.125,0.375
+                                                           -1.313,0.937l0,0.063c0,0.062 0,0.125 -0.062,0.187c-0.063,0.625 -0.25,1.938
+                                                           -0.25,3.438c0,1.5 0.187,2.812 0.25,3.437c0,0.063 0,0.125
+                                                           0.062,0.188l0,0.062c0.188,0.563 0.688,0.938 1.313,0.938l-0.125,0c0,0
+                                                           2.437,0.375 5.75,0.375c3.25,0 5.75,-0.375 5.75,-0.375l-0.125,0c0.625,0
+                                                           1.125,-0.375 1.312,-0.938l0,-0.062c0,-0.063 0,-0.125
+                                                           0.063,-0.188c0.062,-0.625 0.25,-1.937 0.25,-3.437c0,-1.5 -0.125,-2.813
+                                                           -0.25,-3.438Zm-4.634,3.927l-3.201,2.315c-0.068,0.068 -0.137,0.068
+                                                           -0.205,0.068c-0.068,0 -0.136,0 -0.204,-0.068c-0.136,-0.068 -0.204,-0.204
+                                                           -0.204,-0.34l0,-4.631c0,-0.136 0.068,-0.273 0.204,-0.341c0.136,-0.068
+                                                           0.272,-0.068 0.409,0l3.201,2.316c0.068,0.068 0.136,0.204
+                                                           0.136,0.34c0.068,0.136 0,0.273 -0.136,0.341Z" style="fill: rgb(255, 255, 255);"></path>
+                                                     </g>
+                                                  </svg>
+                                               </a>
+                                               <a href="https://www.linkedin.com/in/natassha-selvaraj-33430717a/" class="w-6 mx-1">
+                                                  <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                                     <path id="Shape" d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
+                                                        3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
+                                                        -0.9,4.7c-0.6,1.5 -1.5,2.8 -2.6,3.8c-1.1,1 -2.3,1.9 -3.8,2.6c-1.5,0.7
+                                                        -3.1,0.9 -4.7,0.9c-1.6,0 -3.2,-0.3 -4.7,-0.9c-1.5,-0.6 -2.8,-1.5
+                                                        -3.8,-2.6c-1,-1.1 -1.9,-2.3 -2.6,-3.8c-0.7,-1.5 -0.9,-3.1 -0.9,-4.7c0,-1.6
+                                                        0.3,-3.2 0.9,-4.7c0.6,-1.5 1.5,-2.8 2.6,-3.8c1.1,-1 2.3,-1.9
+                                                        3.8,-2.6Zm-0.3,7.1c0.6,0 1.1,-0.2 1.5,-0.5c0.4,-0.3 0.5,-0.8 0.5,-1.3c0,-0.5
+                                                        -0.2,-0.9 -0.6,-1.2c-0.4,-0.3 -0.8,-0.5 -1.4,-0.5c-0.6,0 -1.1,0.2
+                                                        -1.4,0.5c-0.3,0.3 -0.6,0.7 -0.6,1.2c0,0.5 0.2,0.9 0.5,1.3c0.3,0.4 0.9,0.5
+                                                        1.5,0.5Zm1.5,10l0,-8.5l-3,0l0,8.5l3,0Zm11,0l0,-4.5c0,-1.4 -0.3,-2.5
+                                                        -0.9,-3.3c-0.6,-0.8 -1.5,-1.2 -2.6,-1.2c-0.6,0 -1.1,0.2 -1.5,0.5c-0.4,0.3
+                                                        -0.8,0.8 -0.9,1.3l-0.1,-1.3l-3,0l0.1,2l0,6.5l3,0l0,-4.5c0,-0.6 0.1,-1.1
+                                                        0.4,-1.5c0.3,-0.4 0.6,-0.5 1.1,-0.5c0.5,0 0.9,0.2 1.1,0.5c0.2,0.3 0.4,0.8
+                                                        0.4,1.5l0,4.5l2.9,0Z"></path>
+                                                  </svg>
+                                               </a>
+                                               <a href="https://medium.com/@natassha6789" class="w-6 mx-1">
+                                                  <svg class="fill-current" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                                                     <path id="Combined-Shape" d="M12,24c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12c-6.627,0
+                                                        -12,5.373 -12,12c0,6.627 5.373,12 12,12Zm6.591,-15.556l-0.722,0c-0.189,0
+                                                        -0.681,0.208 -0.681,0.385l0,6.422c0,0.178 0.492,0.323
+                                                        0.681,0.323l0.722,0l0,1.426l-4.675,0l0,-1.426l0.935,0l0,-6.655l-0.163,0l-2.251,8.081l-1.742,0l-2.222,-8.081l-0.168,0l0,6.655l0.935,0l0,1.426l-3.74,0l0,-1.426l0.519,0c0.203,0
+                                                        0.416,-0.145 0.416,-0.323l0,-6.422c0,-0.177 -0.213,-0.385
+                                                        -0.416,-0.385l-0.519,0l0,-1.426l4.847,0l1.583,5.704l0.042,0l1.598,-5.704l5.021,0l0,1.426Z"></path>
+                                                  </svg>
+                                               </a>
+                                            </div>
+                                          <p class="text-secondary">Copyright 2020. All rights reserved!</p>
+                                        </div>
+                                      </footer>
+
+                                    </section>
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+                    <script src="js/index.js">
+
+
+
+
+
+
+</body>
+
+</html>
